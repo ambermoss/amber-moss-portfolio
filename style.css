@@ -92,3 +92,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+  .project-link {
+    text-align: center;
+    display: block;
+    margin: 0 20px;
+  }
+}
